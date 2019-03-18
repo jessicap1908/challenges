@@ -10,12 +10,13 @@
         $("input").keyup(function(){
           
         
-        var image=$("#image-url").val();
+       var image=$("#image-url").val();
         var topText=$("#top-text").val();
         var bottomText=$("#bottom-text").val();
-        
-      //  $("#meme").css("background-image",'url("'$('#image-url').val() + '")');
-        
+       
+        $("#meme").css("background-image", "url(" + image + ")");
+        console.log(image)
+      
         
         
         
