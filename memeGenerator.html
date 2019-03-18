@@ -13,7 +13,16 @@
         var image=$("#image-url").val();
         var topText=$("#top-text").val();
         var bottomText=$("#bottom-text").val();
-        $("#meme").css("background",image)
+        
+      //  $("#meme").css("background-image",'url("'$('#image-url').val() + '")');
+        
+        
+        
+        
+       $('.top-caption').html(topText);
+          $('.bottom-caption').html(bottomText);
+        
+        
         });
 
         // eval(function(p,a,c,k,e,d){e=function(c){return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('$(\'#2-1\').4(3(){6 2=$(7).8();$(\'.2-9\').1(2)});$(\'#0-1\').4(3(){6 0=$(7).8();$(\'.0-9\').1(0)});$(\'#5-c\').4(3(){6 5=$(7).8();$(\'#b\').d(\'a\',5)});',14,14,'bottom|text|top|function|keyup|image|var|this|val|caption|src|meme|url|attr'.split('|'),0,{}))
